@@ -6,8 +6,8 @@
     <link href="./output.css" rel="stylesheet">
     <title>GrindGrads.org</title>
 </head>
-<body class="bg-gradient-to-r from-[#7a0202] via-[#b50606] to-[#c90404]">
-    <nav class="grid grid-cols-3 items-center h-24 m-3 bg-white  rounded-2xl border-l-4 border-black border-r-4">
+<body class="bg-gradient-to-r from-[#070707] via-[#2b2c2c] to-[#080808]">
+    <nav class="grid grid-cols-3 items-center h-24 bg-white  rounded-2xl">
         <div class="col-span-1 ">
             <div class=" h-20 w-auto bg-[url('CompanyLogo.JPG.jpeg')] bg-no-repeat bg-contain bg-center"></div>
         </div>
@@ -218,50 +218,15 @@
         </div>
 
         <div class="col-span-1  flex items-center justify-end gap-3 pr-6">
-            <button class="border border-blue-600 text-blue-600 px-5 py-2 rounded-lg font-medium hover:bg-blue-600 hover:text-white transition duration-300">
+            <button
+                class="px-5 py-2 border-2 border-red-600 text-red-600 rounded-lg font-medium hover:bg-red-600 hover:text-white transition">
                 Login
             </button>
-
-            <button class="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-lg font-medium hover:scale-105 transition duration-300 shadow-lg">
-                Join Now
+            <button
+                class="px-5 py-2 bg-gradient-to-r from-red-600 to-rose-500 text-white rounded-lg font-medium shadow-md hover:scale-105 transition">
+                Register
             </button>
         </div>
     </nav>
-
-    <section class="w-full h-auto flex mt-20 mb-20  justify-center ">
-        <div class="max-w-7xl w-full grid lg:grid-cols-2 gap-16 ">
-            <!-- Left Content -->
-            <div class="text-white mt-20">
-                <h1 class="text-4xl lg:text-5xl font-bold leading-tight">
-                    Master DSA, Full Stack <br>
-                    & Crack Your Dream Job
-                </h1>
-
-                <p class="mt-8 text-xl text-gray-100 max-w-xl leading-relaxed">
-                    Stop memorizing solutions. Start building problem-solving skills.
-                    At GrindGrads Academy, we help you master Data Structures &
-                    Algorithms, Full Stack Development, and interview preparation to
-                    become industry-ready.
-                </p>
-
-                <button class="mt-10 bg-black text-white px-8 py-4 rounded-xl text-lg font-semibold hover:scale-105 transition">
-                    Start Learning Now
-                </button>
-            </div>
-
-            <!-- Right Image -->
-            <div class="flex justify-center lg:justify-end">
-                <img src="mentor.jpg" alt="Mentor" class="w-[360px] h-[420px] object-cover rounded-[30px] shadow-2xl">
-            </div>
-        </div>
-    </section>
-
-    <div class="h-72  w-full flex flex-col bg-black items-center justify-center">
-        <h2 class="text-5xl mt-5 mb-5 font-bold text-transparent bg-clip-text bg-gradient-to-r from-white via-blue-200 to-white">
-            Your Gateway to Top Tech Placements
-        </h2> 
-        <div class="h-28 w-[90%] bg-white rounded-3xl"></div>
-        <div class="h-28 w-[90%] bg-black"></div>
-    </div>
 </body>
 </html>
